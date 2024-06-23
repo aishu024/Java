@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class vote {
+
+public static void main(String[] args) {
+
+ Scanner in=new Scanner (System.in);
+
+System.out.println("enter n value:");
+
+int n=in.nextInt();
+
+int ans voter(n);
+
+System.out.println(ans==1 ?"eligible":"not eligible");
+
+static int voter (int n){
+
+}
+if(n>=18){
+
+return 1;
+
+}
+else{
+
+return 0;
+
+}
+}}
