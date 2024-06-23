@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class even {
+
+public static void main(String[] args) {
+
+int n=118,rev=0;
+int og=n;
+
+while (n!=0)
+{
+rev=rev*10 + n%10;
+n=n/10;
+}
+System.out.println(rev);
+if(og==rev)
+{
+System.out.println("palindrome ");
+}
+else{
+System.out.println("not");
+}
+}}
