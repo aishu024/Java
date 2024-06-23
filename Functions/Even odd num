@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class num{
+public static void main(String[] args) {
+
+oe(1);
+
+static void oe(int a) {
+if(a%2==0){
+
+System.out.println("even");
+
+}
+else{
+System.out.println("odd");
+}
+
+}
+}}
