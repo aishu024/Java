@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class lcmhcf {
+    public static void main(String[] args) {
+        int temp=0;
+        Scanner in =new Scanner(System.in);
+        System.out.print("enter the value 1 : ");
+        int a=in.nextInt();
+        System.out.print("enter the value 2 : ");
+        int b=in.nextInt();
+        for(int i=1;i<=b;i++){
+            if(a%i==0 && b%i==0){
+                temp=i;
+            }
+        }
+        System.out.println("hcf : "+temp);
+       int lcm=a*b/temp;
+       System.out.println("lcm :"+lcm);
+    }
+}
