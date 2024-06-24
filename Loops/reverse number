@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class rev {
+    public static void main(String[] args) {
+          int rev=0;
+        Scanner in =new Scanner(System.in);
+        System.out.print("enter the number : ");
+        int n=in.nextInt();
+        while(n!=0){
+            int rem=n%10;
+            rev=rev*10+rem;
+            n/=10;
+        }
+        
+         
+         System.out.println("The reversed num is : "+rev);
+    }
+}
