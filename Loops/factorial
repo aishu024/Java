@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class fact {
+    public static void main(String[] args) {
+          int fact=1;
+        Scanner in =new Scanner(System.in);
+        System.out.print("enter the factorial value : ");
+        int a=in.nextInt();
+         for(int i=a;i>=1;i--){
+              fact=fact*i;
+            
+         }
+         System.out.println("The factorial is : "+fact);
+    }
+}
