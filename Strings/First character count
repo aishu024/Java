@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class character {
+
+public static void main(String[] args) {
+
+String a="hellohhh";
+int count=1;
+char word=a.charAt(0);
+for(int i=1;i<a.length();i++){
+if(word==a.charAt(i)){
+
+count++;
+
+}
+}
+System.out.print("the count of first character is "+count );
+ }
+}
