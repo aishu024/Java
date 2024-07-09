@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class arr {
+    public static void main(String[] args) {
+       String a="chennai 6261006";
+       int count=0;
+    for(int i=0;i<a.length();i++){
+        if(a.charAt(i)>='0' ){
+        if(a.charAt(i)<='9'){
+            count++;
+        }
+       
+    }}
+     
+    if(a.length()==count){
+        System.out.println("there is only a number");
+    }
+    else{
+        System.out.println("no,there is an alphabet");
+    }
+    }
+}
+
+
+
+
+op:
+no,there is an alphabet
