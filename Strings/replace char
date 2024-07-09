@@ -1,1 +1,11 @@
+import java.util.Scanner;
+public class arr {
+    public static void main(String[] args) {
+       String a="chennai 626008";
+     System.out.print(a.replaceAll("[a-zA-Z]",""));
+    }
+}
 
+
+op:
+626008
