@@ -4,6 +4,13 @@ public class armstrong {
 
 public static void main(String[] args){
 
+/*
+int n=124,count=0;
+String num=Integer.toString(n);
+count=num.length();
+System.out.println(count);
+*/
+
 for(int i=100;i<=1000;i++) {
 
 int sum=0;
