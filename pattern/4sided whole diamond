@@ -1,0 +1,48 @@
+
+class HelloWorld {
+    public static void main(String[] args) {
+       int n=5;
+       for(int i=1;i<=n;i++){
+           for(int j=n;j>=i;j--){
+               System.out.print(" ");
+           }
+           for(int k=1;k<=i;k++){
+               System.out.print("*");
+               }
+         for(int h=2;h<=i;h++){
+             System.out.print("*");
+         }
+            System.out.println();
+      }
+      int m=5;
+      for(int t=2;t<=m;t++){
+          for(int r=1;r<=t;r++){
+              System.out.print(" ");
+          }
+          for(int y=m;y>=t;y--){
+              System.out.print("*");
+          }
+          for(int e=m-1;e>=t;e--){
+              System.out.print("*");
+          }
+          System.out.println();
+      }    }
+}
+
+
+
+
+op:
+
+
+     *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
+     *
+
+
