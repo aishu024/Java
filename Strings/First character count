@@ -16,3 +16,35 @@ count++;
 System.out.print("the count of first character is "+count );
  }
 }
+
+
+
+
+
+
+
+type 2:
+
+
+public class string {
+    public static void main(String[] args) {
+  String word="aisa";
+  char first=word.charAt(0);
+  int count=1;
+  for(int i=1;i<word.length();i++){
+      if(first==word.charAt(i)){
+          System.out.println(word.charAt(i));
+          count++;
+      }}
+      
+      System.out.println("the count of first letter in the word is: "+count);
+    
+  
+    }
+}
+
+
+
+op:
+a
+the count of first letter in the word is: 2
