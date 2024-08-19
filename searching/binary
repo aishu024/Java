@@ -1,0 +1,47 @@
+package datastructure;
+
+import java.util.Arrays;
+
+	
+public class binary{
+    public static int binarySearch(int[] arr, int x) {
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] == x) {
+                return mid; // Element found at index mid
+            }
+
+            if (arr[mid] < x) {
+                left = mid + 1; // Search right half
+            } else {
+                right = mid - 1; // Search left half
+            }
+        }
+
+        return -1; // Element not found
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {2, 3, 4, 10, 40};
+        int x = 10;
+
+        int result = binarySearch(arr, x);
+        int len=result+1;
+
+        if (result == -1) {
+            System.out.println("Element not present in array");
+        } else {
+            System.out.println("Element found at index " + result +" and length is : "+len);
+        }
+    }
+}
+
+
+op:
+
+
+Element found at index 3 and length is : 4
