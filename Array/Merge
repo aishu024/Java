@@ -1,0 +1,69 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+public class array{
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("enter length of a: ");
+        int a=in.nextInt();
+        System.out.println("enter length of b: ");
+        int b=in.nextInt();
+        int[] arr= new int[a];
+        int[] arr2=new int[b];
+        int[] neww=new int[100];
+        int k=0;
+        for(int i=0;i<a;i++){
+            System.out.println("value of arr["+i+"] is: ");
+            arr[i]=in.nextInt();
+        }
+        for(int j=0;j<b;j++){
+            System.out.println("value of arr2["+j+"] is: ");
+            arr2[j]=in.nextInt();
+        }
+        for(int i=0;i<a;i++){
+            neww[k]=arr[i];
+            k++;
+            
+        }
+        for(int j=0;j<b;j++){
+            neww[k]=arr2[j];
+            k++;
+        }
+         System.out.println("merge the two elements: ");
+        for(int i=0;i<k;i++){
+         System.out.println("c["+i+"] is: "+ neww[i]);
+        }
+    }
+}
+
+
+op:
+
+
+enter length of a:
+
+1
+
+enter length of b:
+
+2
+
+value of arr[0] is:
+
+1
+
+value of arr2[0] is:
+
+2
+
+value of arr2[1] is:
+
+3
+
+merge the two elements:
+
+c[0] is: 1
+
+c[1] is: 2
+
+c[2] is: 3
