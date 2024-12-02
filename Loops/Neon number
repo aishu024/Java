@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int a=in.nextInt();
+		int sum=0,b=a;
+		while(a>0){
+		    int r=a%10;
+		    sum=sum+r;
+		    a=a/10;
+		}
+		System.out.println(sum);
+		if(b%sum==0){
+		    System.out.println("neon number");
+		}
+		else{
+		    System.out.println("No");
+		}
+	}
+}
+
+
+op:
+
+18
+9
+neon number
