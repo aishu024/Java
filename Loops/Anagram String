@@ -32,3 +32,59 @@ public class anagram {
         }
     }
 }
+
+
+
+
+
+
+(or)
+
+
+
+
+
+
+
+class Main {
+
+public static void main(String[] args) {
+
+String a="aat";
+
+String b="atc";
+
+int cou=0;
+
+char[] a1=a.toCharArray();
+
+char[] b1=b.toCharArray();
+
+if(a1.length==b1.length) {
+
+for(int i=0;i<b1.length;i++) {
+
+char ch=b1[i];
+
+for(int j=0;j<a1.length; j++){
+
+char ch1=a1[j];
+
+if(ch==ch1) {
+
+a1[j]='\n';
+
+cou++;
+
+break;
+}
+}
+
+}
+if(cou==a1.length) {
+System.out.print("Anagram );
+}}
+else {
+System.out.print("no");
+}
+}}
