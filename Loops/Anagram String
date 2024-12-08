@@ -41,18 +41,13 @@ public class anagram {
 (or)
 
 
-
-
-
-
-
 class Main {
 
 public static void main(String[] args) {
 
 String a="aat";
 
-String b="atc";
+String b="atcf";
 
 int cou=0;
 
@@ -82,9 +77,17 @@ break;
 
 }
 if(cou==a1.length) {
-System.out.print("Anagram );
-}}
+System.out.print("Anagram ");
+}
 else {
 System.out.print("no");
 }
+}
+else{
+    System.out.print("not");
+}
 }}
+
+
+
+
